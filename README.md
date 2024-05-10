@@ -5,10 +5,11 @@
 - [x] Make it deploy (vercel)
 - [x] Scaffold basic ui with mock data
 - [x] Tidy up build process
-- [] Setup database (vercel postgres)
-- [] Attach database to UI
-- [] Add authentication (clerk)
+- [x] Setup database (vercel postgres)
+- [x] Attach database to UI
+- [x] Add authentication (clerk)
 - [] Add image upload
+- [] "taint" (server-only)
 - [] Error management (Sentry)
 - [] Routing/image page (parallel route)
 - [] Delete button (Server actions)
