@@ -13,6 +13,8 @@
 - [x] Use Next/Image component
 - [x] Error management (Sentry)
 - [x] Routing/image page (parallel route)
-- [] Delete button (Server actions)
-- [] Analytics (posthog)
-- [] Ratelimiting (upstash)
+- [x] Upload button remake
+- [ ] Shadcn-ui toast
+- [ ] Delete button (Server actions)
+- [ ] Analytics (posthog)
+- [ ] Ratelimiting (upstash)
