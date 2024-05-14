@@ -1,4 +1,13 @@
-# T3 NextJs Production Ready App Demo (Gallery App)
+## Tools used
+
+- Create t3 app
+- Nextjs
+- Tailwind
+- Drizzle
+- UploadThing
+- Clerk
+- Sentry
+- Shadcn UI
 
 ## TODO
 
@@ -14,7 +23,7 @@
 - [x] Error management (Sentry)
 - [x] Routing/image page (parallel route)
 - [x] Upload button remake
-- [ ] Shadcn-ui toast
-- [ ] Delete button (Server actions)
+- [x] Shadcn-ui toast
 - [ ] Analytics (posthog)
+- [ ] Delete button (Server actions)
 - [ ] Ratelimiting (upstash)
