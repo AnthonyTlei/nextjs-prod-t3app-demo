@@ -83,12 +83,17 @@ export function SimpleUploadButton() {
         </div>,
         {
           duration: 100000,
-          id: "uploading-begin",
+          id: "upload-begin",
         },
       );
     },
+    onUploadError(error) {
+      posthog.capture("upload_error", { error });
+      toast.dismiss("upload-begin");
+      toast.error("Upload failed. Please try again.");
+    },
     onClientUploadComplete() {
-      toast.dismiss("uploading-begin");
+      toast.dismiss("upload-begin");
       toast(
         <div className="flex items-center gap-2 text-white">
           <span className="text-lg">Upload Complete!</span>
