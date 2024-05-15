@@ -8,6 +8,8 @@
 - Clerk
 - Sentry
 - Shadcn UI
+- Posthog
+- Upstash
 
 ## TODO
 
@@ -25,5 +27,5 @@
 - [x] Upload button remake
 - [x] Shadcn-ui toast
 - [x] Analytics (posthog)
-- [ ] Delete button (Server actions)
-- [ ] Ratelimiting (upstash)
+- [x] Delete button (Server actions)
+- [x] Ratelimiting (upstash)
